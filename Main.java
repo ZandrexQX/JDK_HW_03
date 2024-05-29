@@ -27,5 +27,8 @@ public class Main {
         System.out.println(compareArrays(arr1, arr2));
         System.out.println(compareArrays(arr1, arr3));
         System.out.println(compareArrays(arr4, arr2));
+
+        Pair<String, Integer> pair = new Pair<>("s", 10);
+        System.out.println(pair);
     }
 }
